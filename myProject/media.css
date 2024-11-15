@@ -1,0 +1,176 @@
+@media (max-width: 1440px){
+	.section{
+		height: 100vh;
+	}
+
+	.titledContent h1{
+		font-size: 70px;
+	}
+	.titledContent h2{
+		font-size: 40px;
+	}
+}
+
+
+
+@media (max-width: 1199px){
+
+	.orangeDecor{
+		width: 70%;
+	}
+
+	.textContent{
+		width: 35%;
+		left: 8%;
+	}
+	.titledContent{
+		width: fit-content;
+		left: 8%;
+		bottom: 20%;
+	}
+
+	.titledContent h1{
+		font-size: 70px;
+	}
+	.titledContent h2{
+		font-size: 40px;
+	}
+}
+
+
+
+@media (max-width: 992px){
+	.section{
+	/*	border: 1px solid;*/
+		width: 100%;
+		height: 100vh;
+		position: relative;
+	}
+
+	.orangeDecor{
+		width: 100%;
+		height: 50%;
+		background: rgb(255,190,50);
+		position: absolute;
+		right: 0;
+		bottom: 0;
+	}
+
+	.imageContent{
+	/*	border: 1px solid red;*/
+		width: 80%;
+		height: 50%;
+		z-index: 1;
+		background: wheat;
+		position: absolute;
+		right: 5%;
+		top: 10%;
+	}
+	.textContent{
+		left: 0;
+		top: unset;
+		width: 100%;
+		bottom: 10%;
+		padding: 10px 100px;
+		box-sizing: border-box;
+		text-align: center;
+	}
+		.textContent a{
+			text-align: left;
+		}
+	.titledContent{
+		width: fit-content;
+		top: 3%;
+		bottom: unset;
+	}
+
+	.titledContent h1{
+		font-size: 70px;
+	}
+	.titledContent h2{
+		font-size: 40px;
+	}
+}
+
+
+
+@media(max-width: 768px){
+	.textContent{
+		padding: 20px 100px;
+		bottom: 0%;
+	}
+
+	.titledContent h1{
+		font-size: 50px;
+	}
+	.titledContent h2{
+		font-size: 30px;
+	}	
+}
+
+
+@media (max-width: 567px){
+	.section{
+	/*	border: 1px solid;*/
+		width: 100%;
+		height: fit-content;
+		position: relative;
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: start;
+	}
+
+	.orangeDecor{
+		width: 100%;
+		height: 20%;
+		background: rgb(255,190,50);
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		z-index: 2;
+	}
+
+	.imageContent{
+		width: 100%;
+		height: 600px;
+		position: static;
+	}
+
+	.textContent{
+	/*	border: 1px solid;*/
+		width: 100%;
+		height: fit-content;
+		padding: 10px 40px;
+		position: absolute;
+		left: 0;
+		top: unset;
+		bottom: 0;
+		z-index: 4;
+	}
+		.textContent p{
+			line-height: 1.5;
+			font-size: 17px;
+			letter-spacing: 3px;
+			text-shadow: 0 2px 3px rgb(255,255,255);
+			margin: 0;
+			font-family: sans-serif;
+			font-weight: 600;
+
+		}
+	.titledContent{
+		width: 100%;
+		position: static;
+		box-sizing: border-box;
+	}
+
+	.titledContent h1{
+		font-size: 50px;
+		letter-spacing: 4px;
+	}
+	.titledContent h2{
+		font-size: 20px;
+		word-spacing: 15px;
+		letter-spacing: 5px;
+		margin: 10px 0;
+	}
+}
